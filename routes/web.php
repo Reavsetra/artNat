@@ -5,12 +5,23 @@
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
 */
 
 Route::get('/', function () {
     return view('index');
+});
+Route::get('contacto', function () {
+    return view('contacto');
+});
+
+Route::group(['prefix' => 'arreglos'], function () {
+    Route::get('{arreglo}', function ($arreglo)    {
+    	return view('arreglos.'.$arreglo);
+    });
+}); 
+
+Route::group(['prefix' => 'florerias'], function () {
+    Route::get('{lugar}', function ($lugar)    {
+    	return view('places.'.$lugar);
+    });
 });
