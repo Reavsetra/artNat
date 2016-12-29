@@ -10,6 +10,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
 Route::get('contacto', function () {
     return view('contacto');
 });

@@ -18,7 +18,7 @@
             
             <!-- Contenido Principal -->
             <main class="arr-list">
-                <h4>@yield('arreglo-name')</h4>
+                <h4>@yield('title')</h4>
                 <div class="expanded row">
                     <div class="hide-for-small-only medium-3 large-2 columns">
                         <!-- Barra de Navegación -->
