@@ -5,7 +5,6 @@ namespace arteNatural\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Controllers;
 
-
 use arteNatural\Arreglos;
 
 class ArregloController extends Controller

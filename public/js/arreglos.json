@@ -1,428 +1,501 @@
-{
-    "arreglos":[{
-        "nombre": "Arreglos para Toda Ocasión",
-        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
-        "lista":[{
-            "nombre": "Toda Ocasión 01",
-            "foto": "001.jpg",
-            "precio": "$1,500.00"
+{ 
+    "Arreglos":[
+        {
+            "nombre": "Arreglos para Toda Ocasión",
+            "webdir":"toda-ocasion",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Toda Ocasión 01",
+                "foto": "todaOcasion/001.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Toda Ocasión 02",
+                "foto": "todaOcasion/002.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Toda Ocasión 03",
+                "foto": "todaOcasion/003.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Toda Ocasión 04",
+                "foto": "todaOcasion/004.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Toda Ocasión 05",
+                "foto": "todaOcasion/005.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Toda Ocasión 06",
+                "foto": "todaOcasion/006.jpg",
+                "precio": "$1,800.00"
+            },{
+                "nombre": "Toda Ocasión 07",
+                "foto": "todaOcasion/007.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Toda Ocasión 08",
+                "foto": "todaOcasion/008.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Toda Ocasión 09",
+                "foto": "todaOcasion/009.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Toda Ocasión 10",
+                "foto": "todaOcasion/010.jpg",
+                "precio": "$2,600.00"
+            },{
+                "nombre": "Toda Ocasión 11",
+                "foto": "todaOcasion/011.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Toda Ocasión 12",
+                "foto": "todaOcasion/012.jpg",
+                "precio": "$900.00"
+            },{
+                "nombre": "Toda Ocasión 13",
+                "foto": "todaOcasion/013.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Toda Ocasión 14",
+                "foto": "todaOcasion/014.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Toda Ocasión 15",
+                "foto": "todaOcasion/015.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Toda Ocasión 16",
+                "foto": "todaOcasion/016.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Toda Ocasión 17",
+                "foto": "todaOcasion/017.jpg",
+                "precio": "$2,500.00"
+            },{
+                "nombre": "Toda Ocasión 18",
+                "foto": "todaOcasion/018.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Toda Ocasión 19",
+                "foto": "todaOcasion/019.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Toda Ocasión 20",
+                "foto": "todaOcasion/020.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Toda Ocasión 21",
+                "foto": "todaOcasion/021.jpg",
+                "precio": "$1,300.00"
+            },{
+                "nombre": "Toda Ocasión 22",
+                "foto": "todaOcasion/022.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Toda Ocasión 23",
+                "foto": "todaOcasion/023.jpg",
+                "precio": "$1,300.00"
+            },{
+                "nombre": "Toda Ocasión 24",
+                "foto": "todaOcasion/024.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Toda Ocasión 25",
+                "foto": "todaOcasion/025.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Toda Ocasión 26",
+                "foto": "todaOcasion/026.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Toda Ocasión 27",
+                "foto": "todaOcasion/027.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Toda Ocasión 28",
+                "foto": "todaOcasion/028.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Toda Ocasión 29",
+                "foto": "todaOcasion/029.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Toda Ocasión 30",
+                "foto": "todaOcasion/030.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Toda Ocasión 31",
+                "foto": "todaOcasion/031.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Toda Ocasión 32",
+                "foto": "todaOcasion/032.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Toda Ocasión 33",
+                "foto": "todaOcasion/033.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 02",
-            "foto": "002.jpg",
-            "precio": "$1,000.00"
+            "nombre": "Arreglos Especiales",
+            "webdir":"especiales",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Especiales 01",
+                "foto": "especiales/001.jpg",
+                "precio": "$3,000.00"
+            },{
+                "nombre": "Especiales 02",
+                "foto": "especiales/002.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Especiales 03",
+                "foto": "especiales/003.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Especiales 04",
+                "foto": "especiales/004.jpg",
+                "precio": "$900.00"
+            },{
+                "nombre": "Especiales 05",
+                "foto": "especiales/005.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Especiales 06",
+                "foto": "especiales/006.jpg",
+                "precio": "$750.00"
+            },{
+                "nombre": "Especiales 07",
+                "foto": "especiales/007.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Especiales 08",
+                "foto": "especiales/008.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Especiales 09",
+                "foto": "especiales/009.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Especiales 10",
+                "foto": "especiales/010.bmp",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Especiales 11",
+                "foto": "especiales/011.jpg",
+                "precio": "$900.00"
+            },{
+                "nombre": "Especiales 12",
+                "foto": "especiales/012.jpg",
+                "precio": "$2,800.00"
+            },{
+                "nombre": "Especiales 13",
+                "foto": "especiales/013.jpg",
+                "precio": "$1,800.00"
+            },{
+                "nombre": "Especiales 14",
+                "foto": "especiales/014.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Especiales 15",
+                "foto": "especiales/015.jpg",
+                "precio": "$750.00"
+            },{
+                "nombre": "Especiales 16",
+                "foto": "especiales/016.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Especiales 17",
+                "foto": "especiales/017.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Especiales 18",
+                "foto": "especiales/018.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Especiales 19",
+                "foto": "especiales/019.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Especiales 20",
+                "foto": "especiales/020.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Especiales 21",
+                "foto": "especiales/021.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Especiales 22",
+                "foto": "especiales/022.jpg",
+                "precio": "$1,600.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 03",
-            "foto": "003.jpg",
-            "precio": "$700.00"
+            "nombre": "Arreglos con Orquídeas",
+            "webdir":"orquideas",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Orquídeas 01",
+                "foto": "orquideas/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 04",
-            "foto": "004.jpg",
-            "precio": "$1,200.00"
+            "nombre": "Arreglos Frutales",
+            "webdir":"frutales",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Frutales 01",
+                "foto": "frutales/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 05",
-            "foto": "005.jpg",
-            "precio": "$800.00"
+            "nombre": "Arreglos para Bebés",
+            "webdir": "bebes",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Bebés 01",
+                "foto": "bebes/001.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Bebés 02",
+                "foto": "bebes/002.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Bebés 03",
+                "foto": "bebes/003.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Bebés 04",
+                "foto": "bebes/004.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Bebés 05",
+                "foto": "bebes/005.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Bebés 06",
+                "foto": "bebes/006.jpg",
+                "precio": "$750.00"
+            },{
+                "nombre": "Bebés 07",
+                "foto": "bebes/007.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Bebés 08",
+                "foto": "bebes/008.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Bebés 09",
+                "foto": "bebes/009.jpg",
+                "precio": "$900.00"
+            },{
+                "nombre": "Bebés 10",
+                "foto": "bebes/010.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Bebés 11",
+                "foto": "bebes/011.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Bebés 12",
+                "foto": "bebes/012.jpg",
+                "precio": "$800.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 06",
-            "foto": "006.jpg",
-            "precio": "$1,800.00"
+            "nombre": "Centros de Mesa",
+            "webdir": "centros",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Centro 01",
+                "foto": "centros/001.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 02",
+                "foto": "centros/002.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Centro 03",
+                "foto": "centros/003.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 04",
+                "foto": "centros/004.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 05",
+                "foto": "centros/005.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 06",
+                "foto": "centros/006.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Centro 07",
+                "foto": "centros/007.png",
+                "precio": "$380.00"
+            },{
+                "nombre": "Centro 08",
+                "foto": "centros/008.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Centro 09",
+                "foto": "centros/009.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Centro 10",
+                "foto": "centros/010.jpg",
+                "precio": "$800.00"
+            },{
+                "nombre": "Centro 11",
+                "foto": "centros/011.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 12",
+                "foto": "centros/012.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 13",
+                "foto": "centros/013.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Centro 14",
+                "foto": "centros/014.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 15",
+                "foto": "centros/015.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Centro 16",
+                "foto": "centros/016.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 17",
+                "foto": "centros/017.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 18",
+                "foto": "centros/018.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 19",
+                "foto": "centros/019.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Centro 20",
+                "foto": "centros/020.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 21",
+                "foto": "centros/021.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Centro 22",
+                "foto": "centros/022.jpg",
+                "precio": "$"
+            },{
+                "nombre": "Centro 23",
+                "foto": "centros/023.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Centro 24",
+                "foto": "centros/024.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 25",
+                "foto": "centros/025.jpg",
+                "precio": "$450.00"
+            },{
+                "nombre": "Centro 26",
+                "foto": "centros/026.png",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 27",
+                "foto": "centros/027.jpeg",
+                "precio": "$350.00"
+            },{
+                "nombre": "Centro 28",
+                "foto": "centros/028.jpg",
+                "precio": "$"
+            },{
+                "nombre": "Centro 29",
+                "foto": "centros/029.jpg",
+                "precio": "$400.00"
+            },{
+                "nombre": "Centro 30",
+                "foto": "centros/030.jpg",
+                "precio": "$600.00"
+            },{
+                "nombre": "Centro 31",
+                "foto": "centros/031.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 32",
+                "foto": "centros/032.jpg",
+                "precio": "$700.00"
+            },{
+                "nombre": "Centro 33",
+                "foto": "centros/033.jpg",
+                "precio": "$500.00"
+            },{
+                "nombre": "Centro 34",
+                "foto": "centros/034.jpg",
+                "precio": "$500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 07",
-            "foto": "007.jpg",
-            "precio": "$600.00"
+            "nombre": "Ramos de Novia",
+            "webdir": "ramos",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Ramos 01",
+                "foto": "ramos/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 08",
-            "foto": "008.jpg",
-            "precio": "$1,200.00"
+            "nombre": "Arreglos Religiosos",
+            "webdir": "religiosos",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Religiosos 01",
+                "foto": "religiosos/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 09",
-            "foto": "009.jpg",
-            "precio": "$700.00"
+            "nombre": "Arreglos Fúnebres",
+            "webdir": "funebres",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Fúnebres 01",
+                "foto": "funebres/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 10",
-            "foto": "010.jpg",
-            "precio": "$2,600.00"
+            "nombre": "Arreglos Empresariales",
+            "webdir": "empresariales",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Empresariales 01",
+                "foto": "empresariales/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 11",
-            "foto": "011.jpg",
-            "precio": "$1,000.00"
+            "nombre": "Plantas ornamentales",
+            "webdir": "ornamentales",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Ornamentales 01",
+                "foto": "ornamentales/001.jpg",
+                "precio": "$1,500.00"
+            }]
         },{
-            "nombre": "Toda Ocasión 12",
-            "foto": "012.jpg",
-            "precio": "$900.00"
-        },{
-            "nombre": "Toda Ocasión 13",
-            "foto": "013.jpg",
-            "precio": "$800.00"
-        },{
-            "nombre": "Toda Ocasión 14",
-            "foto": "014.jpg",
-            "precio": "$700.00"
-        },{
-            "nombre": "Toda Ocasión 15",
-            "foto": "015.jpg",
-            "precio": "$800.00"
-        },{
-            "nombre": "Toda Ocasión 16",
-            "foto": "016.jpg",
-            "precio": "$500.00"
-        },{
-            "nombre": "Toda Ocasión 17",
-            "foto": "017.jpg",
-            "precio": "$2,500.00"
-        },{
-            "nombre": "Toda Ocasión 18",
-            "foto": "018.jpg",
-            "precio": "$1,000.00"
-        },{
-            "nombre": "Toda Ocasión 19",
-            "foto": "019.jpg",
-            "precio": "$800.00"
-        },{
-            "nombre": "Toda Ocasión 20",
-            "foto": "020.jpg",
-            "precio": "$1,500.00"
-        },{
-            "nombre": "Toda Ocasión 21",
-            "foto": "021.jpg",
-            "precio": "$1,300.00"
-        },{
-            "nombre": "Toda Ocasión 22",
-            "foto": "022.jpg",
-            "precio": "$1,500.00"
-        },{
-            "nombre": "Toda Ocasión 23",
-            "foto": "023.jpg",
-            "precio": "$1,300.00"
-        },{
-            "nombre": "Toda Ocasión 24",
-            "foto": "024.jpg",
-            "precio": "$500.00"
-        },{
-            "nombre": "Toda Ocasión 25",
-            "foto": "025.jpg",
-            "precio": "$1,500.00"
-        },{
-            "nombre": "Toda Ocasión 26",
-            "foto": "026.jpg",
-            "precio": "$800.00"
-        },{
-            "nombre": "Toda Ocasión 27",
-            "foto": "027.jpg",
-            "precio": "$1,400.00"
-        },{
-            "nombre": "Toda Ocasión 28",
-            "foto": "028.jpg",
-            "precio": "$1,000.00"
-        },{
-            "nombre": "Toda Ocasión 29",
-            "foto": "029.jpg",
-            "precio": "$700.00"
-        },{
-            "nombre": "Toda Ocasión 30",
-            "foto": "030.jpg",
-            "precio": "$1,400.00"
-        },{
-            "nombre": "Toda Ocasión 31",
-            "foto": "031.jpg",
-            "precio": "$700.00"
-        },{
-            "nombre": "Toda Ocasión 32",
-            "foto": "032.jpg",
-            "precio": "$1,000.00"
-        },{
-            "nombre": "Toda Ocasión 33",
-            "foto": "033.jpg",
-            "precio": "$1,500.00"
-        }]
-        },{
-        "nombre": "Arreglos para Ocasiones Especiales",
-        "introduccion": "Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
-        "lista":[{}]
-        },]
-    ,
-    "navidad": [{
-        "nombre": "Navideños 01",
-        "foto": "001.jpg",
-        "precio": "$0.00"
-    },{
-        "nombre": "Navideños 01",
-        "foto": "001.jpg",
-        "precio": "$0.00"
-    }],
-    "bebes": [{
-        "nombre": "Bebés 01",
-        "foto": "001.jpg",
-        "precio": "$1,500.00"
-    },{
-        "nombre": "Bebés 02",
-        "foto": "002.jpg",
-        "precio": "$1,400.00"
-    },{
-        "nombre": "Bebés 03",
-        "foto": "003.jpg",
-        "precio": "$1,000.00"
-    },{
-        "nombre": "Bebés 04",
-        "foto": "004.jpg",
-        "precio": "$800.00"
-    },{
-        "nombre": "Bebés 05",
-        "foto": "005.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Bebés 06",
-        "foto": "006.jpg",
-        "precio": "$750.00"
-    },{
-        "nombre": "Bebés 07",
-        "foto": "007.jpg",
-        "precio": "$1,600.00"
-    },{
-        "nombre": "Bebés 08",
-        "foto": "008.jpg",
-        "precio": "$1,500.00"
-    },{
-        "nombre": "Bebés 09",
-        "foto": "009.jpg",
-        "precio": "$900.00"
-    },{
-        "nombre": "Bebés 10",
-        "foto": "010.jpg",
-        "precio": "$1,500.00"
-    },{
-        "nombre": "Bebés 11",
-        "foto": "011.jpg",
-        "precio": "$1,400.00"
-    },{
-        "nombre": "Bebés 12",
-        "foto": "012.jpg",
-        "precio": "$800.00"
-    }],
-    "especiales":[{
-        "nombre": "Especiales 01",
-        "foto": "001.jpg",
-        "precio": "$3,000.00"
-    },{
-        "nombre": "Especiales 02",
-        "foto": "002.jpg",
-        "precio": "$1,400.00"
-    },{
-        "nombre": "Especiales 03",
-        "foto": "003.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Especiales 04",
-        "foto": "004.jpg",
-        "precio": "$900.00"
-    },{
-        "nombre": "Especiales 05",
-        "foto": "005.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Especiales 06",
-        "foto": "006.jpg",
-        "precio": "$750.00"
-    },{
-        "nombre": "Especiales 07",
-        "foto": "007.jpg",
-        "precio": "$800.00"
-    },{
-        "nombre": "Especiales 08",
-        "foto": "008.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Especiales 09",
-        "foto": "009.jpg",
-        "precio": "$1,600.00"
-    },{
-        "nombre": "Especiales 10",
-        "foto": "010.bmp",
-        "precio": "$1,500.00"
-    },{
-        "nombre": "Especiales 11",
-        "foto": "011.jpg",
-        "precio": "$900.00"
-    },{
-        "nombre": "Especiales 12",
-        "foto": "012.jpg",
-        "precio": "$2,800.00"
-    },{
-        "nombre": "Especiales 13",
-        "foto": "013.jpg",
-        "precio": "$1,800.00"
-    },{
-        "nombre": "Especiales 14",
-        "foto": "014.jpg",
-        "precio": "$1,600.00"
-    },{
-        "nombre": "Especiales 15",
-        "foto": "015.jpg",
-        "precio": "$750.00"
-    },{
-        "nombre": "Especiales 16",
-        "foto": "016.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Especiales 17",
-        "foto": "017.jpg",
-        "precio": "$800.00"
-    },{
-        "nombre": "Especiales 18",
-        "foto": "018.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Especiales 19",
-        "foto": "019.jpg",
-        "precio": "$1,400.00"
-    },{
-        "nombre": "Especiales 20",
-        "foto": "020.jpg",
-        "precio": "$1,000.00"
-    },{
-        "nombre": "Especiales 21",
-        "foto": "021.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Especiales 22",
-        "foto": "022.jpg",
-        "precio": "$1,600.00"
-    }],
-    "centros":[{
-        "nombre": "Centro 01",
-        "foto": "001.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 02",
-        "foto": "002.jpg",
-        "precio": "$1,000.00"
-    },{
-        "nombre": "Centro 03",
-        "foto": "003.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 04",
-        "foto": "004.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 05",
-        "foto": "005.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 06",
-        "foto": "006.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Centro 07",
-        "foto": "007.jpg",
-        "precio": "$380.00"
-    },{
-        "nombre": "Centro 08",
-        "foto": "008.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Centro 09",
-        "foto": "009.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Centro 10",
-        "foto": "010.jpg",
-        "precio": "$800.00"
-    },{
-        "nombre": "Centro 11",
-        "foto": "011.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 12",
-        "foto": "012.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 13",
-        "foto": "013.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Centro 14",
-        "foto": "014.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 15",
-        "foto": "015.jpg",
-        "precio": "$1,000.00"
-    },{
-        "nombre": "Centro 16",
-        "foto": "016.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 17",
-        "foto": "017.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 18",
-        "foto": "018.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 19",
-        "foto": "019.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Centro 20",
-        "foto": "020.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 21",
-        "foto": "021.jpg",
-        "precio": "$1,200.00"
-    },{
-        "nombre": "Centro 22",
-        "foto": "017.jpg",
-        "precio": "$"
-    },{
-        "nombre": "Centro 23",
-        "foto": "023.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Centro 24",
-        "foto": "024.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 25",
-        "foto": "025.jpg",
-        "precio": "$450.00"
-    },{
-        "nombre": "Centro 26",
-        "foto": "026.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 27",
-        "foto": "027.jpg",
-        "precio": "$350.00"
-    },{
-        "nombre": "Centro 28",
-        "foto": "028.jpg",
-        "precio": "$"
-    },{
-        "nombre": "Centro 29",
-        "foto": "029.jpg",
-        "precio": "$400.00"
-    },{
-        "nombre": "Centro 30",
-        "foto": "030.jpg",
-        "precio": "$600.00"
-    },{
-        "nombre": "Centro 31",
-        "foto": "031.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 32",
-        "foto": "032.jpg",
-        "precio": "$700.00"
-    },{
-        "nombre": "Centro 33",
-        "foto": "033.jpg",
-        "precio": "$500.00"
-    },{
-        "nombre": "Centro 34",
-        "foto": "034.jpg",
-        "precio": "$500.00"
-    }]
+            "nombre": "Arreglos Navideños",
+            "webdir": "navidad",
+            "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
+            "lista":[{
+                "nombre": "Navideños 01",
+                "foto": "navidad/001.jpg",
+                "precio": "$1,500.00"
+            }]
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 <?php
-
+ 
 namespace arteNatural;
 
 use Illuminate\Database\Eloquent\Model;
@@ -13,6 +13,6 @@ class Arreglos extends Model
         $json = file_get_contents($path.'/js/arreglos.json');
         $data = json_decode($json);
         
-        return $json;
+        return $data->Arreglos;
     }
 }
