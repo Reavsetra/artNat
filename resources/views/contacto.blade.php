@@ -1,95 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.master')
 
-        <title>Laravel</title>
+@section('title', 'Contáctanos')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+@section('content')
+    <main>
+        <div id="map"></div>
+        <h4>Contáctanos</h4>
+        <section class="row">
+            <article class="columns small-12 medium-6">
+                <form name="bio-contact-form" method="post" action="envio_contacto.php">
+                    <div class="row">
+                        <div class="medium-6 columns">
+                            <label>Nombre:
+                                <input type="text" name="bio_nombre" required>
+                            </label>
+                        </div>
+                        <div class="medium-6 columns">
+                            <label>Apellido:
+                                <input type="text" name="bio_apellido" required>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-6 columns">
+                            <label>Email:
+                                <input type="text" name="bio_email" required>
+                            </label>
+                        </div>
+                        <div class="medium-6 columns">
+                            <label>Asunto:
+                                <input type="text" name="bio_asunto" required>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            <label>Asunto:
+                                <textarea rows="5" name="bio_mensaje" required>
+                                
+                                </textarea>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-12 columns">
+                            <button type="submit" class="expanded button">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </article>
+            <article class="columns small-12 medium-6">
+                {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ses-419!2smx!4v1479756097652!6m8!1m7!1sop8QQwXzjgAJj-WWF5v29w!2m2!1d19.3728725889224!2d-99.27782500431974!3f205.21630424479156!4f-7.248857316259489!5f0.7820865974627469" width="100%" height="450"
+                    frameborder="0" style="border:0" allowfullscreen></iframe> --}}
+            </article>
+        </section>
+    </main>
+@endsection

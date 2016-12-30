@@ -10,6 +10,7 @@
     </head>
 
     <body>
+        {{-- Menú canvas off responsive  --}}
         <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas  data-transition-time="500">
             @include('partials.res-nav')
         </div>
@@ -18,7 +19,13 @@
 
             @yield('content')
         </div>
-    <script src="{{ asset('js/app.js') }}"></script>
+        {{-- Scripts  --}}
+        @if (\Request::is('contacto')) 
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWY-SJ_3hztn-mEep1zYhE1_7Do89JnAk&callback=initMap">
+            </script>
+        @endif 
+        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/flor.js') }}"></script>
     </body>
 
 </html>
