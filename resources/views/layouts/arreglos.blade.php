@@ -6,6 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('lib/fancybox/source/jquery.fancybox.css?v=2.1.5') }}" type="text/css" media="screen" />
         <title>Floreria Arte Natural - @yield('title')</title>
     </head>
 
@@ -36,7 +37,10 @@
                 </div>
             </main>
         </div>
-    <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
+        <!-- Add fancyBox -->
+        <script type="text/javascript" src="{{ asset('lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5') }}"></script>
+        <script src="{{ asset('js/flor.js') }}"></script>
     </body>
 
 </html>

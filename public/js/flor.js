@@ -1,6 +1,13 @@
 $(window).load(function () {
-  $(".sub-menu").sticky({ topSpacing: 10 });
+    $(".sub-menu").sticky({ topSpacing: 10 });
 });
+
+if(window.location.pathname != "/"){
+    $(".light-gallery").fancybox({
+        padding : 0,
+    });
+};
+
 $(document).foundation();
 
 function initMap() {
