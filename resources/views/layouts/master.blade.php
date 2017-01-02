@@ -20,12 +20,12 @@
             @yield('content')
         </div>
         {{-- Scripts  --}}
+        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/flor.js') }}"></script>
         @if (\Request::is('contacto')) 
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWY-SJ_3hztn-mEep1zYhE1_7Do89JnAk&callback=initMap">
             </script>
         @endif 
-        <script src="{{ asset('js/app.js') }}"></script>
-        <script src="{{ asset('js/flor.js') }}"></script>
     </body>
 
 </html>

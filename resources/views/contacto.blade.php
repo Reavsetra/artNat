@@ -50,9 +50,10 @@
                 </form>
             </article>
             <article class="columns small-12 medium-6">
-                {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ses-419!2smx!4v1479756097652!6m8!1m7!1sop8QQwXzjgAJj-WWF5v29w!2m2!1d19.3728725889224!2d-99.27782500431974!3f205.21630424479156!4f-7.248857316259489!5f0.7820865974627469" width="100%" height="450"
-                    frameborder="0" style="border:0" allowfullscreen></iframe> --}}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ses-419!2smx!4v1479756097652!6m8!1m7!1sop8QQwXzjgAJj-WWF5v29w!2m2!1d19.3728725889224!2d-99.27782500431974!3f205.21630424479156!4f-7.248857316259489!5f0.7820865974627469" width="100%" height="450"
+                    frameborder="0" style="border:0" allowfullscreen></iframe>
             </article>
         </section>
     </main>
+    
 @endsection

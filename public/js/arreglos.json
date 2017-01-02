@@ -237,7 +237,59 @@
             "lista":[{
                 "nombre": "Orquídeas 01",
                 "foto": "orquideas/001.jpg",
+                "precio": "$3,500.00"
+            },{
+                "nombre": "Orquídeas 02",
+                "foto": "orquideas/002.jpeg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Orquídeas 03",
+                "foto": "orquideas/003.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Orquídeas 04",
+                "foto": "orquideas/004.jpg",
                 "precio": "$1,500.00"
+            },{
+                "nombre": "Orquídeas 05",
+                "foto": "orquideas/005.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Orquídeas 06",
+                "foto": "orquideas/006.jpg",
+                "precio": "$1,100.00"
+            },{
+                "nombre": "Orquídeas 07",
+                "foto": "orquideas/007.jpg",
+                "precio": "$4,500.00"
+            },{
+                "nombre": "Orquídeas 08",
+                "foto": "orquideas/008.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Orquídeas 09",
+                "foto": "orquideas/009.jpg",
+                "precio": "$2,200.00"
+            },{
+                "nombre": "Orquídeas 10",
+                "foto": "orquideas/010.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Orquídeas 11",
+                "foto": "orquideas/011.jpg",
+                "precio": "$5,000.00"
+            },{
+                "nombre": "Orquídeas 12",
+                "foto": "orquideas/012.jpg",
+                "precio": "$1,300.00"
+            },{
+                "nombre": "Orquídeas 13",
+                "foto": "orquideas/013.jpg",
+                "precio": "$1,400.00"
+            },{
+                "nombre": "Orquídeas 14",
+                "foto": "orquideas/014.jpg",
+                "precio": "$3,800.00"
             }]
         },{
             "nombre": "Arreglos Frutales",
@@ -246,6 +298,30 @@
             "lista":[{
                 "nombre": "Frutales 01",
                 "foto": "frutales/001.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Frutales 02",
+                "foto": "frutales/002.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Frutales 03",
+                "foto": "frutales/003.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Frutales 04",
+                "foto": "frutales/004.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Frutales 05",
+                "foto": "frutales/005.jpg",
+                "precio": "$1,000.00"
+            },{
+                "nombre": "Frutales 06",
+                "foto": "frutales/006.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Frutales 07",
+                "foto": "frutales/007.jpg",
                 "precio": "$1,500.00"
             }]
         },{
@@ -467,16 +543,156 @@
             "lista":[{
                 "nombre": "Fúnebres 01",
                 "foto": "funebres/001.jpg",
+                "precio": "$1,200.00"
+            },{
+                "nombre": "Fúnebres 02",
+                "foto": "funebres/002.jpg",
+                "precio": "$2,500.00"
+            },{
+                "nombre": "Fúnebres 03",
+                "foto": "funebres/003.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Fúnebres 04",
+                "foto": "funebres/004.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Fúnebres 05",
+                "foto": "funebres/005.jpeg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Fúnebres 06",
+                "foto": "funebres/006.jpg",
+                "precio": "$2,500.00"
+            },{
+                "nombre": "Fúnebres 07",
+                "foto": "funebres/007.jpg",
+                "precio": "$4,000.00"
+            },{
+                "nombre": "Fúnebres 08",
+                "foto": "funebres/008.jpg",
+                "precio": "$"
+            },{
+                "nombre": "Fúnebres 09",
+                "foto": "funebres/009.jpg",
+                "precio": "$"
+            },{
+                "nombre": "Fúnebres 10",
+                "foto": "funebres/010.jpg",
                 "precio": "$1,500.00"
+            },{
+                "nombre": "Fúnebres 11",
+                "foto": "funebres/011.jpg",
+                "precio": "$1,500.00"
+            },{
+                "nombre": "Fúnebres 12",
+                "foto": "funebres/012.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Fúnebres 13",
+                "foto": "funebres/013.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Fúnebres 14",
+                "foto": "funebres/014.jpg",
+                "precio": "$2,500.00"
+            },{
+                "nombre": "Fúnebres 15",
+                "foto": "funebres/015.jpg",
+                "precio": "$1,600.00"
+            },{
+                "nombre": "Fúnebres 16",
+                "foto": "funebres/016.jpg",
+                "precio": "$2,500.00"
             }]
         },{
             "nombre": "Arreglos Empresariales",
             "webdir": "empresariales",
             "introduccion":"Extensa variedad de Arreglos florales para celebraciones, Arreglos empresariales, Areglos funebres, Arreglos para días festivos, Arreglos para eventos, Arreglos para oficina., Arreglos para toda ocacion, plantas ornamentales a su servicios",
             "lista":[{
-                "nombre": "Empresariales 01",
+                "nombre": "Empresarial 01",
                 "foto": "empresariales/001.jpg",
-                "precio": "$1,500.00"
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 02",
+                "foto": "empresariales/002.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 03",
+                "foto": "empresariales/003.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 04",
+                "foto": "empresariales/004.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 05",
+                "foto": "empresariales/005.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 06",
+                "foto": "empresariales/006.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 07",
+                "foto": "empresariales/007.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 08",
+                "foto": "empresariales/008.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 09",
+                "foto": "empresariales/009.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 10",
+                "foto": "empresariales/010.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 11",
+                "foto": "empresariales/011.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 12",
+                "foto": "empresariales/012.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 13",
+                "foto": "empresariales/013.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 14",
+                "foto": "empresariales/014.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 15",
+                "foto": "empresariales/015.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 16",
+                "foto": "empresariales/016.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 17",
+                "foto": "empresariales/017.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 18",
+                "foto": "empresariales/018.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 19",
+                "foto": "empresariales/019.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 20",
+                "foto": "empresariales/020.jpg",
+                "precio": "Cotizar"
+            },{
+                "nombre": "Empresarial 21",
+                "foto": "empresariales/021.jpg",
+                "precio": "Cotizar"
             }]
         },{
             "nombre": "Plantas ornamentales",

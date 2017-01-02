@@ -14,7 +14,7 @@
                         </a>
                         <div class="contenido">
                             <p>{{$item->nombre}}</p>
-                            <p class="price">{{$item->precio}}<span class="send"> más envio</span></p>
+                            <p class="price"><span class="send">{{$item->precio}}</span></p>
                         </div>
                      </div>
                 @endforeach
