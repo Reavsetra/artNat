@@ -2,10 +2,10 @@ $(window).load(function () {
     $(".sub-menu").sticky({ topSpacing: 10 });
 });
 
-if (window.location.pathname.slice(0,9) == "/arreglos") {
+if (window.location.pathname.slice(0,9) == "/arreglos" || window.location.pathname.slice(0,9) == "/floreria" ) {
     $(".light-gallery").fancybox({
         padding: 0,
-    });
+    }); 
 }
 
 $(document).foundation();

@@ -16,7 +16,7 @@
             <li><a href="{{ url('arreglos/funebres') }}">Arreglos Funerarios</a></li>
             <li><a href="{{ url('arreglos/empresariales') }}">Arreglos Empresariales</a></li>
             <li><a href="{{ url('arreglos/plantlas-ornamentales') }}">Plantas Ornamentales</a></li>
-            <li><a href="{{ url('arreglos/navideños') }}">Arreglos Navideños</a></li>
+            <li><a href="{{ url('arreglos/navidad') }}">Arreglos Navideños</a></li>
         </ul>
     </li>
     <li>
