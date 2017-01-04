@@ -1,6 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Bienvenidos')
+@section('mdescription', "Arreglos florales para toda ocasión con servicio de entrega exprés en la zona de Santa Fe")
+
+@section('mkeywords', "Florería en Santa Fe, arreglos florales para toda ocasión, envío de flores a domicilio, florerías en Santa Fe")
+
+@section('title', "Flores a Domicilio")
 
 @section('content')
     @include('partials.orbit')
@@ -10,7 +14,7 @@
         <h4>Florería Arte Natural</h4>
         <div class="arreglos">
             <div class="item">
-                <a href="arreglos/toda_ocasion">
+                <a href="arreglos/toda-ocasion">
                     <div class="thumnails">
                         <img src="img/catalogos/obsequio.jpg" width="280" height="280" />
                     </div>

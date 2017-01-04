@@ -1,10 +1,9 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
+|----------------------------------------
 | Web Routes
-|--------------------------------------------------------------------------
-|
+|----------------------------------------
 */
 
 Route::get('/', function () {
@@ -16,11 +15,14 @@ Route::get('contacto', function () {
 });
 
 Route::group(['prefix' => 'arreglos'], function () {
-    Route::get('{arreglo}', 'ArregloController@index');
-}); 
+	Route::get('{arreglo}', 'ArregloController@index');
+});
 
 Route::group(['prefix' => 'florerias'], function () {
-    Route::get('{lugar}', function ($lugar)    {
+
+	Route::get('{lugar}', 'StoresController@index');
+
+    /*Route::get('{lugar}', function ($lugar)    {
     	return view('places.'.$lugar);
-    });
+    });*/
 });

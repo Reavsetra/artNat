@@ -3698,6 +3698,8 @@ body > img {
 p {
   text-align: justify; }
 
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -3707,7 +3709,7 @@ h6 {
   text-align: center;
   font-family: 'Tangerine'; }
 
-h4 {
+h1,h2,h4 {
   margin-top: 5px;
   margin-bottom: -10px;
   font-size: 2.6em;

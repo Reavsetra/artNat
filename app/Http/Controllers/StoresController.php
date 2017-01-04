@@ -1,27 +1,26 @@
 <?php
- 
+
 namespace arteNatural\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+ 
 use Illuminate\Http\Controllers;
 
 use arteNatural\Arreglos;
 
-class ArregloController extends Controller
+class StoresController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($arreglo)
+    public function index($lugar)
     {
         //
         $arreglos = Arreglos::ArrList();
         
-        return view('arreglos.'.$arreglo, compact('arreglos'));
-        
+        return view('places.'.$lugar, compact('arreglos'));
     }
 
     /**
