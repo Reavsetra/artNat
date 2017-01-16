@@ -1,0 +1,384 @@
+//Variables
+$themeA: #6e1541;
+$themeB: #E59588;
+$themeC: #BA5C8A;
+$themeD: #A1240F;
+$themeE: #4E7B36;
+$themeF: #05343B;
+
+//Fuentes Web
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+// Estilos Generales
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    background-color: lighten(black, 85%);
+}
+
+body>img {
+    margin-top: 100px;
+}
+
+p {
+    text-align: justify;
+}
+
+h1,h2,h3,
+h4,
+h5,
+h6 {
+    font-size: 2em;
+    color: $themeA;
+    text-align: center;
+    font-family: 'Tangerine';
+}
+
+h1, h2, h4{
+    margin-top: 5px;
+    margin-bottom: -10px;
+    font-size: 2.6em;
+    color: $themeC;
+}
+
+nav {
+    &.principal {
+        color: white;
+        min-height: 120px;
+        display: flex;
+        align-items: center;
+        background-color: $themeA;
+        .logo {
+            width: 20%;
+            img {
+                display: block;
+                width: 80%;
+                margin: auto;
+            }
+        }
+        .contact-info{
+            width: 20%;
+            p{
+                margin:0px;
+                position: relative;
+                bottom: -30px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+        .menu {
+            width: 60%;
+            ul {
+                display: flex;
+                float: right;
+                li {
+                    width: 150px;
+                    list-style: none;
+                    a {
+                        color: white;
+                        font-size: 1.5rem;
+                        text-decoration: none;
+                        transition: all 500ms;
+                        font-family: 'Satisfy', cursive;
+                        &:hover {}
+                    }
+                }
+            }
+        }
+    }
+    &.sub-menu {
+        background-color: white;
+        border-radius: 10px;
+        padding: 0px;
+        h3{
+            width: 90%;
+            margin: auto;
+            padding-top:10px;
+            margin-bottom: 0px;
+            font-size: 2.1em;
+            color: $themeC;
+            border-bottom: $themeC solid 3px;
+        }
+        ul {
+            margin-top: 0px;
+            padding: 10px;
+            li {
+                padding:8px;
+                margin: 8px auto;
+                overflow: hidden;
+                cursor: pointer;
+                &::before{
+                    content: "-"
+                };
+                &::after{
+                    content: "";
+                    display: block;
+                    top: 5px;
+                    left: -400px;
+                    position:relative;
+                    width: 100%;
+                    border-radius:0px 50% 50% 0px;
+                    border-bottom:solid 3px $themeC;
+                    transition: 300ms ;
+                }
+                &:hover{    
+                    &::after{
+                        position:relative;
+                        left: -10px;
+                    }
+                }
+                a {
+                    padding-left:10px;
+                    font-size: 1em;
+                    color: $themeA;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+nav.res {
+  background-color: #6e1541;
+  width: 100%;
+  height: 70px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  z-index: 1000; }
+  nav.res button {
+    width: 30%; }
+    nav.res button.button {
+      margin: auto;
+      padding: 2px;
+      width: 50px;
+      height: 50px;
+      display: block;
+      background-color: #BA5C8A;
+      border-radius: 5px; }
+  nav.res p {
+    width: 70%;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive; }
+
+#map {
+    height: 350px;
+}
+
+.orbit-container {
+    padding: 0px;
+    li {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.arr-list {
+    padding: 10px;
+}
+
+.arreglos {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .item {
+        width: 200px;
+        margin: 20px 10px;
+        background-color: white;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        a {
+            text-decoration: none;
+        }
+        h4 {
+            font-size: 1.5em;
+            color: white;
+            background-color: $themeB;
+            position: relative;
+            padding: 5px;
+            top: -35px;
+            margin-bottom: -30px;
+        }
+        p {
+            text-align: center;
+            margin: 0px;
+            font-size: 0.8em;
+            color: lighten(black, 50%)
+        }
+        .thumnails {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            img {
+                transform: scale(1.4);
+                transition: all 500ms;
+            }
+            &:hover {
+                img {
+                    transform: scale(1);
+                }
+            }
+        }
+        .contenido {
+            padding: 15px;
+            p {
+                text-align: center;
+                font-size: 1em;
+                margin: 5px auto;
+                color: lighten(black, 40%);
+                &.price {
+                    font-weight: bold;
+                    color: lighten(black,20%);
+                    span {
+                        font-size: 0.9em;
+                        color: $themeB;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact{
+    section{
+        background-color: lighten($themeA, 72%);
+        padding:10px;
+        border-radius:10px;
+        margin:25px auto;
+        color: lighten(black, 40%)
+    }
+    .payments{
+        p{
+            font-size: 0.9em;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding:0px;
+            margin:0px;
+            li{
+                list-style: none;
+                margin:10px;
+                img{
+                    width:60px;
+                }
+            }
+        }
+    }
+    .cities{
+        width: 100%;
+        overflow: hidden;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            margin:0px;
+            justify-content: center;
+            padding:10px;
+            li{
+                margin: auto 10px;
+                list-style: none;
+            }
+        }
+    }
+}
+
+.contact-foot{
+    margin: 30px auto;
+    h3{
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 3em;
+    }
+    .element{
+        display:flex;
+        margin: 15px auto ;
+        .icon{
+            padding-right: 15px; 
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            i{
+                font-size: 2.7em;
+                color:  $themeC;
+                text-align: right;
+            }
+        }
+        .info{
+            width: 70%;
+            padding-left: 15px; 
+            border-left: solid $themeC 3px;
+            h3{
+                margin:0px;
+                text-align: left !important;
+                color:  $themeC;
+                font-size: 1.2em;
+                font-weight: bold;
+                font-family: 'Poppins', sans-serif;
+            }
+            p{
+                text-align: left !important;
+                margin:0px;
+                font-size: 0.9em;
+            }
+        }
+    }
+}
+
+.js-off-canvas-overlay.is-visible {
+    opacity: 0;
+    visibility: visible;
+}
+
+.js-off-canvas-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    background: rgba(254, 254, 254, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.off-canvas-content, .off-canvas-content {
+    background: transparent;
+}
