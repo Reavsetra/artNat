@@ -10,6 +10,7 @@
         <title>Floreria Arte Natural | @yield('title')</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('lib/fancybox/source/jquery.fancybox.css?v=2.1.5') }}" type="text/css" media="screen" />
+        <script src="https://use.fontawesome.com/8a5b6d39c1.js"></script>
     </head>
     <body>
         <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas  data-transition-time="500">
@@ -17,6 +18,7 @@
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
             @include('partials.principal-nav')
+            @include('partials.footer-contact')
             <!-- Contenido Principal -->
             <main class="arr-list">
                 <h1>@yield('title')</h1>
