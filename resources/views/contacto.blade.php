@@ -5,7 +5,7 @@
 @section('content')
     <main>
         <div id="map"></div>
-        <h4>Contáctanos</h4>
+        <h2>Contáctanos</h2>
         <section class="row contact-foot">
             <div class="small-12 medium-4 columns element">
                 <div class="icon">
