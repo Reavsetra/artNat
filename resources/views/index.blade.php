@@ -113,7 +113,7 @@
                 </a>
             </div>
             <div class="item">
-                <a href="arreglos/ornamentales">
+                <a href="arreglos/plantas-ornamentales">
                     <div class="thumnails">
                         <img src="img/catalogos/ornamental.jpg" width="280" height="280" />
                     </div>

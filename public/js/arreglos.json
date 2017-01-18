@@ -249,7 +249,7 @@
             },{
                 "nombre": "Orquídeas 04",
                 "foto": "orquideas/004.jpg",
-                "precio": "$1,500.00"
+                "precio": "$4,500.00"
             },{
                 "nombre": "Orquídeas 05",
                 "foto": "orquideas/005.jpg",
@@ -691,7 +691,7 @@
                 "precio": "Cotizar"
             },{
                 "nombre": "Empresarial 21",
-                "foto": "empresariales/021.jpg",
+                "foto": "empresariales/021.png",
                 "precio": "Cotizar"
             }]
         },{
